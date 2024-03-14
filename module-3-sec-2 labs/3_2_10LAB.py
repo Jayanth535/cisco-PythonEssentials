@@ -7,6 +7,7 @@ res=" "
 for letter in user_word:
     if letter not in vowels:
         res+=letter
+        continue
 for i in res:
     print(i, end='\n')
     # Complete the body of the for loop.
